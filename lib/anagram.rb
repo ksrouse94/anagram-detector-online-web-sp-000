@@ -17,7 +17,6 @@ class Anagram
     anagrams.each do |word|
       if @entry.split("") == word
         result << word
-        result
       else
         result = []
       end  
