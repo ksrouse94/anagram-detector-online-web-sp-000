@@ -18,6 +18,8 @@ class Anagram
       if @entry.split("") == word
         result << word
         result
+      else
+        result = []
       end  
     end  
   end
