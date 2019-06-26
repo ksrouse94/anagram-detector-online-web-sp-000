@@ -18,7 +18,7 @@ class Anagram
       if @entry.split("").sort == word.split("").sort
         result << word
       else
-        result = []
+        result
       end  
     end  
     result
