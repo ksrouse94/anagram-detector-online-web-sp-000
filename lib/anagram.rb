@@ -12,7 +12,6 @@ class Anagram
   
   def match(anagrams)
     #create empty array to hold matching result(s)
-    result = []
     #iterate over array of possible anagrams
     anagrams.each do |word|
       if @entry.split("") == word
