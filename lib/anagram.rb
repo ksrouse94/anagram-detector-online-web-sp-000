@@ -15,7 +15,7 @@ class Anagram
     result = []
     #iterate over array of possible anagrams
     anagrams.each do |word|
-      if @entry.split("").sort == word.sort
+      if @entry.split("").sort == word
         result << word
         result
       end  
