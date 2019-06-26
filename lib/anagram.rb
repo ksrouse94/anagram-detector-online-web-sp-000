@@ -21,5 +21,6 @@ class Anagram
         result = []
       end  
     end  
+    result
   end
 end
